@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="page2.html">Projects</a></li>
+        <li><a href="contactme.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h1>Contact Me</h1>
+    <p>If you'd like to get in touch, feel free to contact me through the form below or reach out directly via my contact details.</p>
+
+    <div class="contact-details">
+      <p><strong>Phone:</strong> 947-622-4008</p>
+      <p><strong>Email:</strong> <a href="mailto:so1iman@proton.me">so1iman@proton.me</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/so1iman" target="_blank">https://github.com/so1iman</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/abdalla-soliman-b7347910b" target="_blank">https://linkedin.com/in/abdalla-soliman-b7347910b</a></p>
+    </div>
+
+    <form class="contact-form" action="#" method="POST">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Abdalla Soliman | <a href="contactme.html">Contact Me</a></p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
